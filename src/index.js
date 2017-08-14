@@ -5,7 +5,7 @@ var Alexa = require('alexa-sdk');
 //TODO: The items below this comment need your attention.
 //=========================================================================================================================================
 
-//Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.  
+//Replace with your app ID (OPTIONAL).  You can find this value at the top of your skill's page on http://developer.amazon.com.
 //Make sure to enclose your value in quotes, like this: var APP_ID = "amzn1.ask.skill.bb4045e6-b3e8-4133-b650-72923c5980f1";
 var APP_ID = undefined;
 
@@ -19,20 +19,20 @@ var STOP_MESSAGE = "Goodbye!";
 //TODO: Replace this data with your own.  You can find translations of this data at http://github.com/alexa/skill-sample-node-js-fact/data
 //=========================================================================================================================================
 var data = [
-    "The best way to start doing something is to start doing it.",         
-    "A period of consistent failure does not necessarily mean that success will never be seen.",          
-    "If you're always learning, when are you applying?",    
-    "When you aren't feeling your best, you are prone to fall for the worst",    
+    "The best way to start doing something is to start doing it.",
+    "A period of consistent failure does not necessarily mean that success will never be seen.",
+    "If you're always learning, when are you applying?",
+    "When you aren't feeling your best, you are prone to fall for the worst",
     "The way you see yourself is not the way others see you...and the way others see you isn't" +
-                    " necessarily who you really are.",    
-    "Commitments and responsibilities cease, but knowledge and love is eternal.",    
-    "Live and let live. Don't let the lives of others inhibit you from living yours.",   
+                    " necessarily who you really are.",
+    "Commitments and responsibilities cease, but knowledge and love is eternal.",
+    "Live and let live. Don't let the lives of others inhibit you from living yours.",
     "Don't hold others to your personal standards, and don't hold yourself to the standards " +
                     "of others.",
-    "Never let a desire grow strong enough that you begin questioning yourself.",   
-    "Acquired pleasures should only supplement an already joyful life.",    
-    "Moving can sometimes be better than standing still, but it's always good to be engaged.",  
-    "Your life is, after all, only yours. Do exactly what you want.",            
+    "Never let a desire grow strong enough that you begin questioning yourself.",
+    "Acquired pleasures should only supplement an already joyful life.",
+    "Moving can sometimes be better than standing still, but it's always good to be engaged.",
+    "Your life is, after all, only yours. Do exactly what you want.",
     "When there are no pending duties or present responsibilities, you become as free " +
                     "as free can be.",
     "Others may be engaging in certain activities. Others may have varying levels of success. " +
@@ -70,12 +70,12 @@ var data = [
     "You are a meaningful and special individual.",
     "Don't forget to smile, you are beautiful!",
     "You did a good job today.",
-    "You are a role model and a great friend."
+    "You are a role model and a great friend.",
     "I am glad I know you."
 ];
 
 //=========================================================================================================================================
-//Editing anything below this line might break your skill.  
+//Editing anything below this line might break your skill.
 //=========================================================================================================================================
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
